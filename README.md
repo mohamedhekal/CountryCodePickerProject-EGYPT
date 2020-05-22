@@ -1,4 +1,4 @@
-Country Code Picker Library
+Country Code Picker Library  EGYPT ONLY
 ===========================
 
 If you are looking for an android library for Country Selector or Country Spinner or Country Phone Code selector, this is the perfect place for you.
