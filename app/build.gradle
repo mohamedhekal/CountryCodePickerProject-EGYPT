@@ -1,0 +1,37 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+
+android {
+    compileSdkVersion 28
+
+    defaultConfig {
+        applicationId "in.hbb20.countrycodepickerproject"
+        minSdkVersion 14
+        targetSdkVersion 28
+        versionCode 6
+        versionName "2.2.2"
+    }
+    buildTypes {
+        release {
+            // Enables code shrinking, obfuscation, and optimization for only
+            // your project's release build type.
+            minifyEnabled true
+
+            // Enables resource shrinking, which is performed by the
+            // Android Gradle plugin.
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+	implementation fileTree(include: ['*.jar'], dir: 'libs')
+	implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlinVersion"
+	debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.0-alpha-2'
+	implementation project(':ccp')
+	implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+	implementation 'androidx.cardview:cardview:1.0.0'
+	testImplementation 'junit:junit:4.12'
+}

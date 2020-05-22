@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "482488656244",
+    "firebase_url": "https://countrycodepicker-92695.firebaseio.com",
+    "project_id": "countrycodepicker-92695",
+    "storage_bucket": "countrycodepicker-92695.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482488656244:android:dfef3ee7bff26af1670c21",
+        "android_client_info": {
+          "package_name": "com.mka.CountryCodePicker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "482488656244-brrpf2b2udbafn7splusdnv91ap7mjpf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mka.CountryCodePicker",
+            "certificate_hash": "2856ed9741134ea4fe1f56f070b0b9640c0fe93d"
+          }
+        },
+        {
+          "client_id": "482488656244-4ivms5uuaul3d5f0mrschetd5349bfcb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWFUlJ_XvdEkFmBja5QHbDZ-91eZWdVkk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "482488656244-4ivms5uuaul3d5f0mrschetd5349bfcb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

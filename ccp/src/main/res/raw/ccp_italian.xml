@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <messages>
+        <ccp_dialog_title translation="todo: update" />
+        <ccp_dialog_search_hint_message translation="todo: update" />
+        <ccp_dialog_no_result_ack_message translation='todo: update' />
+    </messages>
+
+    <countries>
+        <country
+            name="EGYPT"
+            english_name="EGYPT"
+            name_code="EG"
+            phone_code="20" />
+    </countries>
+</data>
